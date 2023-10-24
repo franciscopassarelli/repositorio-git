@@ -1,0 +1,50 @@
+CSS selector
+style type= "text" /css
+
+universal- color 
+
+de tipo- "seleccionarlo por los nombres de los elementos y los colorea"
+
+clases- ponemos  dentro del titulo o elemento  class="titulo h2"   "y lo clasifica" (con un punto . )
+
+ID- #id element  id="element-for-modify"   si hay un segundo id="element-for-modify-2"   "identificador" y lo modifica 
+usamos #element-for-modify para modificar
+
+por atributo- escribimos el atributo en un elemento y ese nombre del elemento se caracteriza con el color del atributo
+ (usamos corchetes [ para desarrollar) usamos tambien <span para modificar la palbara que queramos
+
+descendiente- quiere decir que lo que selecciono con el mouse modificando lo anterior que sea usado con el atributo puesto.
+es decir se usa para cuando usemos la pseudo clases.
+
+pseudo clases- selecciona una palabra con el mouse y le cambia el color
+
+herramientas:
+
+padding :es la distancia que hay entre los bordes de la caja y el texto
+
+margin:corre las cajas mueve
+left, right, top, bottom 
+
+widht: 50vw; el ancho de la caja
+
+height 50vh; el alto de la caja
+
+
+background-color:colorea lo de atras de la letra ,  o el fondo de la caja
+
+opacity: es la transparencia de la caja .1 . 2 . 5 etc
+
+.contact-form
+
+	font-size: 2em; tamaño de la letra
+
+	font-family: georgia; seria la tipografia de la letra
+
+	line-height: 1.9 mueve la letra o el texto dejandole espacio arriba y abajo
+
+	font-weight: normal;el grosor de la letra
+
+	font-stretch: normal;
+ 
+	font-variant:small-caps;
+

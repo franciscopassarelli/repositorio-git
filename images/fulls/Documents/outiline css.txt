@@ -1,0 +1,82 @@
+0)outline: sirve para localizar el objeto o caja pero no cuenta como accion. 
+
+1) position:
+
+static: seria el valor por defecto, no hace nada
+
+relative: conserva el lugar pero corre la caja
+adquiere las medidas top,left, right,bottom se puede usar
+ 
+absolute: fija el contenido pero no lo sigue
+
+fixed:sirve para fijar cajas en un mismo lugar. osea de arriba de un texto o lo que fuere,
+ pero en movimiento tambien , si bajamos o subimos sigue acompañando. para hacer barras de navegacion
+
+sticky: es la mezcla de absolute y fixed esta fijo, pero cuando llegamos a la caja arranca su destino
+
+2)z-index: prioriza la posicion del objeto 100 es mas que 99
+
+solo en elementos posicionados
+conflictos de hijos y padres
+
+3)display:
+
+block : son bloques ocupan todo el espacio
+
+inline: en linea ocupa solamente el contenido. se usaria solo para texto.
+
+inline-block :podemos modificar las dimensiones de la caja. y se puede poner un elemento al lado de otro
+table: para que se comporte como tabla 
+inline-table: para que se comporte como tabla en linea
+list-item:
+table-cell
+table-row
+table-column
+
+gird:
+
+
+pseudo-elementos: 
+
+::first-line:   block  . sirve para modificar la primera linea, texto . colorear agrandar 
+::first-letter: block.   lo mismo pero para modificar la primera letra.::
+
+
+::placeholder:es el texto puesto en un imput.
+ y lo podemos modificar tambien
+
+::Selection: sirve para seleccionar el texto, y modificar los colores al seleccionar el texto y el fondo del texto
+
+
+after y before: se escribe texto pero no se puede seleccionar, no es parte del dom. se puede hacer varias cosas 
+como etiquetas, iconos .
+
+::after: seria el antes y se trabaja con la propiedad content (necesario) in line. en linea solamente
+ 
+::Before:  seria el despues , se trabaja con la propiedad (content)  in line , en linea solamente
+
+7) Pseudo-clases:
+
+:hover
+
+:link
+
+:visited
+
+:active
+
+:focus
+
+:lang
+
+8)
+
+
+
+
+
+
+
+ 
+
+ 
